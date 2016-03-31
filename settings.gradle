@@ -1,1 +1,1 @@
-include ':app', ':StickyListHeaders', ':indexablelistview'
+include ':app', ':indexablelistview'
