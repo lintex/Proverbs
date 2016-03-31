@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ixxj.proverbs.Main2Activity">
+
+    <com.yokeyword.indexablelistview.IndexableStickyListView
+        android:id="@+id/listView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:indexBar_selected_textColor="@color/colorAccent"
+        app:indexBar_textColor="@android:color/darker_gray"
+        app:indexBar_textSize="14sp"
+        app:indexListView_rightOverlayColor="@color/colorAccent"
+        app:indexListView_type_overlay="center" />
+</RelativeLayout>

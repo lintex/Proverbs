@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/id_menu_hideChinese"
+        android:icon="@mipmap/ic_launcher"
+        android:title="显示中文" />
+    <item
+        android:id="@+id/id_menu_search"
+        android:icon="@mipmap/search"
+        app:showAsAction="always"
+        android:title="搜索" />
+    <item
+        android:id="@+id/id_menu_setting"
+        android:icon="@mipmap/ic_launcher"
+        android:title="设置" />
+    <item
+        android:id="@+id/id_menu_about"
+        android:icon="@mipmap/ic_launcher"
+        android:title="关于" />
+    <item
+        android:id="@+id/id_menu_exit"
+        android:icon="@mipmap/ic_launcher"
+        android:title="退出" />
+</menu>
